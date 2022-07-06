@@ -80,7 +80,7 @@ function Team() {
       }}
       >
                        <div className='teamMemberImg'>
-                         <img src="./Assets/head6.png"/>
+                         <img src="./Assets/head3.png"/>
                        </div>
                        <div className='teamMemberPara'>
                           <h2>ADD TEXT</h2>
@@ -105,7 +105,7 @@ function Team() {
       }}
       >
                        <div className='teamMemberImg'>
-                         <img src="./Assets/head5.png"/>
+                         <img src="./Assets/head4.png"/>
                        </div>
                        <div className='teamMemberPara'>
                           <h2>LROEM</h2>
