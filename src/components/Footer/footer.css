@@ -1,0 +1,126 @@
+
+.baked{
+    color: #fad643;
+    text-align: center; 
+}
+.baked h2{
+    margin: 3% 0;
+    color: #fad643;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.baked-1 a{
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+.baked-1 a:hover{
+   color: #fad643;
+}
+.baked-1 {
+text-align: center;
+
+}
+.based-2 h1{
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+}
+.based-2{
+    text-align: center;
+    padding: 3% 0;
+}
+.twitter-icon{
+    color: gray;
+    margin: 10px;
+    
+}
+.twitter-icon:hover{
+    color: #fad643;
+    
+}
+.footer{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1045px) {
+    .baked h2{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .baked-1 a{
+        font-size: 1.3rem;
+        font-weight: 150;
+        padding: 0 25px;
+
+
+    }
+    .based-2 h1{
+        font-size: 0.6rem;
+    }
+   .twitter-icon{
+     margin: 0 10px ;
+        
+    }
+
+}
+
+@media screen and (max-width: 895px) {
+    .baked h2{
+        font-size: 1.2rem;
+        font-weight: 250;
+    }
+    .baked-1 a{
+        font-size: 1.1rem;
+        font-weight: 130;
+        padding: 0 20px;
+
+
+    }
+    .based-2 h1{
+        font-size: 0.5rem;
+    }
+    .twitter-icon{
+        margin: 0 9px ;
+
+    }
+
+
+}
+
+@media screen and (max-width: 895px) {
+    .baked h2{
+        font-size: 1.1rem;
+        font-weight: 220;
+    }
+    .baked-1 a{
+        font-size: 1rem;
+        font-weight: 110;
+        padding: 0 18px;
+
+
+    }
+    .based-2 h1{
+        font-size: 0.3rem;
+    }
+    .twitter-icon{
+        margin: 0 7px ;
+    }
+}
+@media screen and (max-width: 800px) {
+    .baked-1 a{
+        display: block;
+    }
+ 
+
+}
+
+
+

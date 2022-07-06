@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* height: auto; */
+}
+.sec-one{
+    margin: 0% 0;
+    background-image: url("./IMG/back.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 100vh;
+}

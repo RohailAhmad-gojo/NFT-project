@@ -1,0 +1,65 @@
+.roadmapHeader{
+   margin: 5% 0;
+   text-align: center;
+}
+.roadmapHeader h1{
+    font-size: 3.5rem;
+    color: #fad643;
+}
+.roadmapHeader{
+    margin-bottom:5%; 
+}
+.roadmapBorder{
+    position: absolute;
+    left: 21%;
+    border-right: 2px dashed #fad643;
+    height: 1280px;
+}
+.roadmapHead h1{
+    font-size: 1.8rem;
+    color: #fad643;
+}
+.roadmapText{
+    background-color: #fad643;
+    padding: 2%;
+    border-radius: 5px;
+}
+.roadmapTextPara{
+    display: flex;
+    margin: 7px 0;
+}
+.roadmapTextPara p{
+    font-size: 1.2rem;
+    width: 95%;
+    color: #000;
+    font-weight: 500;
+} 
+.roadmapPara{
+    margin: 2% 0;
+}
+.roadMapIcon{
+    color: #000;
+}
+.roadmapBottom{
+    margin-top: 2%;
+    margin-left: 25%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+/* -------------------------MEDIA-------------------------------------------- */
+@media screen and (max-width: 1200px) {
+    .roadmapBorder{
+    display: none;
+}
+    .roadmapBottom{
+      margin-top: 2%;
+      margin-left: 0%;
+}
+}
+@media screen and (max-width: 600px) {
+    .roadmapHeader h1{
+        font-size: 2rem;
+        color: #fad643;
+    }
+  }

@@ -1,0 +1,61 @@
+#team{
+    margin: 6%;
+}
+.teamHeader{
+    display: flex;
+    justify-content: center;
+}
+.teamHeader h1{
+    font-size: 3.5rem;
+    color: #fad643;
+    margin: 5% 0;
+}
+.ourTeam{
+    display: flex;
+    justify-content: center;
+}
+.teamMember{
+    overflow: hidden;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+}
+.teamMemberImg img{
+    height: 220px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 4px;
+}
+.teamMemberPara h2{
+    font-size: 2rem;
+    padding-bottom: 3px;
+    color: #fad643;
+}
+.teamMemberPara h5{
+    font-size: 1.1rem;
+    padding-bottom: 3px;
+    color: gray;
+    font-weight: 400;
+}
+.teamMemberPara h5:hover{
+   color: white;
+   font-weight: bold;
+}
+.teamMemberPara p{
+   font-weight: 300;
+   line-height: 1;
+   padding: 5px 0;
+   border-bottom: 1px solid gray;
+   width: 90%;
+}
+.teamMemberIcons{
+    margin: 5px 10px;
+}
+.teamMemberIcons:hover{
+    background-color: #fad643;
+    border-radius: 50%;
+    color: black;
+    padding: 1px;
+}
+

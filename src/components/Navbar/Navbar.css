@@ -1,0 +1,207 @@
+.navBar{
+    height: 16%;
+    position: fixed;
+    background-color: #0a0a14d0;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.navbarContant{
+    display: flex;
+    align-items: center;
+}
+.navbarLogo{
+   display: flex;
+   align-items: center;
+}
+.navbarLogo img{
+    height: 100px;
+}
+.navbarList{
+   text-align: center;
+}
+.navbarList ul{
+   border-right: 2px solid gray;
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+}
+.navbarList ul li{
+    list-style: none;
+}
+.navbarList ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+.navbarList ul li a:hover{
+    color: #fad643;
+}
+.navbarIcons{
+    text-align: center;
+}
+.navbarIcon{
+    margin: 0 7px;
+    font-size: 1.8rem !important;
+}
+.navbarIcon:hover{
+    color: black;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: fad643;
+}
+.DrawerIcon{
+    display: none;
+}
+.DrawerIcons{
+    font-size: 2.7rem !important;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 1s; 
+}
+.DrawerIcon:hover{
+    transition: all 0.5s; 
+    transform: rotate(90deg);
+}
+.DrawerIcon:visited{
+    transform: rotate(90deg);
+}
+.navBarBtn{
+    color: white !important; 
+    font-size: 1.3rem !important;
+    font-weight: 900 !important;
+    border: 1px solid white !important;
+    padding: 7px 25px !important;
+    border-radius: 7px !important;
+    transition: all 0.3s !important;
+}
+.navBarBtn:hover{
+    letter-spacing: 5px !important;
+    background-color: #0a0a1498;
+    color: #fad643 !important;
+}
+.navBarBtn img{
+    height: 15px;
+    padding: 0 5px;
+}
+.navIcon a{
+    text-decoration: none;
+}
+/* -----------------------------------SIDEBAR------------------------------------- */
+.sideBarDrawer{
+    transition: all .5s;
+}
+.sideBar{
+    width: 380px;
+    background-color: #0a0a14;
+    height: 100vh;
+    padding: 28% 0;
+    transition: all 1s;
+}
+.sideBar .closeIcon{
+    font-size: 3rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    border-radius: 50px;
+    right: 10%;
+    top: 6%; 
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.sideBar .closeIcon:hover{
+   background-color: black;
+   color: #fad643;
+   transform: rotate(180deg);
+}
+.sideBar .closeIcon:active{
+    background-color: black;
+    color: #fad643;
+    transition: all 0.2s;
+    transform: rotate(180deg);
+ }
+.sideBarList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideBarLists li{
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+.sideBarLists li a{
+   color: white;
+   text-decoration: none;
+   font-size: 2rem;
+   font-weight: 700;
+   transition: all 0.3s;
+}
+.sideBarLists li a:hover{
+   letter-spacing: 5px;
+   color: #fad643;
+}
+.sideBarIcons{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sideBarIcons li{
+    list-style: none;
+}
+.sideBarIcon img{
+    height: 40px;
+    margin: 0 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sideBarIcon img:hover{
+    height: 50px;
+    box-shadow: 0 0 2px 3px  #fad643;
+}
+
+/* ===============================MEDIA======================================== */
+@media screen and (max-width: 1280px){
+    .navbarList ul li a{
+        font-size: 1.2rem;
+    }
+    .navBarBtn{
+        font-size: 1rem !important;
+        font-weight: 800 !important;
+        padding: 7px 15px !important;
+    }
+}
+@media screen and (max-width: 1000px){
+    .navbarList ul li a{
+        font-size: 1rem;
+    }
+    .navbarList ul{
+        border: none;
+    }
+    .navBarBtn{
+        font-size: 0.6rem !important;
+        font-weight: 400 !important;
+        padding: 7px 10px !important;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .navbarList{
+        display: none;
+    }
+    .navIcon{
+        display: none;
+    }
+    .DrawerIcon{
+        display: block;
+    }
+    .navbarContant{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+}

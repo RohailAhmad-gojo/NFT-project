@@ -1,0 +1,52 @@
+.about-border{
+    padding-top: 4%;
+    z-index: -1;
+}
+.about{
+    padding: 10px 0;
+     
+    border: 4px white solid;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;    
+}
+.about h1{   
+    font-weight: bold;
+    color: #fad643;
+    font-size: 3.5rem;
+    font-weight:800;
+    padding-top: 3%;
+}
+.about p{
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;
+    line-height: 40px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    
+
+
+}
+.about-end{
+    border-bottom: 4px #fad643 solid;
+    width: 15%;
+    margin-left: 42%;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+@media only screen and (max-width: 800px) {
+    .about{
+        color: white;
+    }
+    .about p{
+        margin-top: 4%;
+        margin-left: 10%;
+        line-height: 30px;
+        font-size: 1rem;
+        text-align: left;
+    }
+  }
